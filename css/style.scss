@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat';
+}
+
+$color1: #262626;
+$color2: #323232;
+$color3: #ed1c47;
+$color4: #1c1c1c;
+$btn_contact: #323232;
+.btn-primary {
+    background-color: $color3;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 7px 30px;
+    text-transform: capitalize;
+}
+
+#heading {
+    background-image: url("../img/banner_bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .navbar-brand {
+        font-size: 24px;
+        font-weight: 600;
+        color: $color1;
+        letter-spacing: 1px;
+    }
+    .nav-link {
+        color: $color4;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 28px 20px;
+        transition: color 0.4s;
+        &:hover {
+            color: $color3;
+        }
+    }
+    .heading-content {
+        padding: 100px 0;
+    }
+    .heading_title{
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+        color: $color1;
+    }
+}
